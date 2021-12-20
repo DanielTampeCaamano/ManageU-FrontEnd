@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="cuerpo">
     <section id="perfil">
       <retratoPerfil></retratoPerfil>
       <logros></logros>
@@ -30,3 +30,12 @@ export default {
   }
 }
 </script>
+
+
+<style scoped>
+#cuerpo{
+  padding: 1%;
+  background: whitesmoke;
+  width: 98%;
+}
+</style>

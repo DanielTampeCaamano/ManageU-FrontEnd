@@ -8,8 +8,9 @@
 </template>
 
 <script>
+import axios from 'axios'
 //Imports de componentes
-import elementoActividad from '../components/elementoActividad.vue'
+import elementoActividad from '@/components/elementoActividad.vue'
 //Fin imports de componentes
 export default {
   name: 'listaActividad',
@@ -23,11 +24,11 @@ export default {
   },
   methods: {
     async obtenerActividad(){
-        //Conexion con backend
+        const datos = await axios.get('http://localhost:8080/api/actividad/get')
+        this.actividades = datos.data
     },
     agregarActividad(){
-        //formulario para agregar habito
-        alert("agregare una actividad")
+        this.$router.push('AgregarAct')
     }
   },
     mounted(){

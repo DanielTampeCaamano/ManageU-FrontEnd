@@ -8,6 +8,7 @@
 </template>
 
 <script>
+import axios from 'axios'
 //Imports de componentes
 import elementoHabito from '../components/elementoHabito.vue'
 //Fin imports de componentes
@@ -18,27 +19,16 @@ export default {
   },
   data(){
     return{
-      habitos:[
-        {
-          id:1,
-          titulo:"Titulo de habito de prueba 1", 
-          proximoCumplimiento:"22:07 19/12/2021"
-        },
-        {
-          id:2,
-          titulo:"Titulo de habito de prueba 2", 
-          proximoCumplimiento:"22:07 19/12/2021"
-        }
-      ]
+      habitos:[]
     }
   },
   methods:{
     async obtenerHabitos(){
-      //Conexion con backend
+        const datos = await axios.get('http://localhost:8080/api/habito/get')
+        this.habitos = datos.data
     },
     agregarHabito(){
-        //formulario para agregar habito
-        alert("agregare un Habito")
+        this.$router.push('AgregarHab')
     }
   },
   mounted(){

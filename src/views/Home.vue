@@ -15,10 +15,10 @@
 
 <script>
 //Imports de componentes
-import retratoPerfil from '../components/retratoPerfil.vue'
-import listaActividad from '../components/listaActividad.vue'
-import listaHabito from '../components/listaHabito.vue'
-import logros from '../components/logros.vue'
+import retratoPerfil from '@/components/retratoPerfil.vue'
+import listaActividad from '@/components/listaActividad.vue'
+import listaHabito from '@/components/listaHabito.vue'
+import logros from '@/components/logros.vue'
 //Fin imports de componentes
 export default {
   name: 'Home',

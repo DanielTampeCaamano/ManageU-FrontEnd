@@ -6,6 +6,7 @@
         <h5>Titulo</h5>
         <input type="text" v-model="habito.titulo">
         <h5>Periodicidad</h5>
+        <span>minutos/horas/dias/meses/años</span>
         <input id="minutos" type="number" max="60" min="00" v-model="habito.periodicidad[0]">
         <input id="horas" type="number" max="24" min="00" v-model="habito.periodicidad[1]">
         <input id="dias" type="number" max="30" min="00" v-model="habito.periodicidad[2]">

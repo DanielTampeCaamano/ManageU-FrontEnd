@@ -38,5 +38,7 @@ export default {
 </script>
 
 <style scoped>
-
+div button{
+  text-align: center;
+}
 </style>

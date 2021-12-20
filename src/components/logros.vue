@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="logros">
     Logros no disponibles
   </div>
 </template>
@@ -11,5 +11,9 @@ export default {
 </script>
 
 <style>
-
+#logros{
+  border: 1px solid black;
+  width:50%;
+  text-align: center;
+}
 </style>

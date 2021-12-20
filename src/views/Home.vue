@@ -1,13 +1,13 @@
 <template>
   <div id="cuerpo">
-    <section id="perfil">
-      <retratoPerfil></retratoPerfil>
-      <logros></logros>
-    </section>
-    <section id="lista_habitos">
-      <listaHabito></listaHabito>
-    </section>
-    <section id="lista_habitos">
+      <section id="perfil">
+        <retratoPerfil></retratoPerfil>
+        <logros id="logros"></logros>
+      </section>
+      <section id="lista_habitos">
+        <listaHabito></listaHabito>
+      </section>
+    <section id="lista_actividades">
       <listaActividad></listaActividad>
     </section>
   </div>
@@ -37,5 +37,26 @@ export default {
   padding: 1%;
   background: whitesmoke;
   width: 98%;
+}
+
+#perfil{
+  border: 1px solid black;
+  width:50%;
+  height: 45%;
+  float: left;
+}
+#lista_habitos{
+  border: 1px solid black;
+  width:50%;
+  height: 50%;
+  text-align: justify;
+
+}
+
+#lista_actividades{
+  border: 1px solid black;
+  width:50%;
+  height: 50%;
+  text-align: justify;
 }
 </style>

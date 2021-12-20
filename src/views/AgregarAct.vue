@@ -63,4 +63,8 @@ export default {
 textarea{
   resize: none;
 }
+div{
+    color: #e4e4e4;
+    background: #f07fd1;
+}
 </style>

@@ -9,3 +9,8 @@ export default {
   name: 'Actividades'
 }
 </script>
+<style scoped>
+div{
+    color: #e4e4e4;
+}
+</style>

@@ -10,7 +10,7 @@
 
 <style>
 body{
-  background: rgb(221, 195, 224);
+  background: #900C3F ;
 }
 #app {
     font-family: Helvetica, Arial, sans-serif;
@@ -43,6 +43,6 @@ nav a {
   
 nav a.router-link-exact-active {
     color: whitesmoke;
-    background: gray;
+    background: #C70039;
 }
 </style>

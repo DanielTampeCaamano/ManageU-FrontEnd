@@ -35,7 +35,7 @@ export default {
 <style scoped>
 #cuerpo{
   padding: 1%;
-  background: whitesmoke;
+  background:  #d4b6bd  ;
   width: 98%;
 }
 
@@ -43,13 +43,14 @@ export default {
   border: 1px solid black;
   width:50%;
   height: 45%;
-  float: left;
+  background:  white;
 }
 #lista_habitos{
   border: 1px solid black;
   width:50%;
   height: 50%;
   text-align: justify;
+  background:  white;
 
 }
 
@@ -58,5 +59,6 @@ export default {
   width:50%;
   height: 50%;
   text-align: justify;
+  background:  white;
 }
 </style>

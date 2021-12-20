@@ -21,7 +21,7 @@ export default {
   methods:{
       async cumplida(){
           this.item.cumplido++
-          axios.post('http://localhost:8080/api/habito/post',JSON.parse(JSON.stringify(this.item)))    
+          axios.post('http://localhost:8080/api/habito/post',JSON.parse(JSON.stringify(this.item)))
       }
   }, mounted(){
     this.item = this.habito

@@ -18,20 +18,7 @@ export default {
   },
   data(){
       return{
-        actividades:[
-            {
-                id:1, 
-                titulo:"Titulo de Actividad de prueba 1", 
-                relevancia:35, 
-                fechaLimite:"21:35 19/12/2021"  
-            },
-            {
-                id:1, 
-                titulo:"Titulo de Actividad de prueba 2", 
-                relevancia:35, 
-                fechaLimite:"21:35 19/12/2021"  
-            },
-        ]
+        actividades:[]
       }
   },
   methods: {

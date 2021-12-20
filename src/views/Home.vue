@@ -27,11 +27,6 @@ export default {
     listaActividad,
     listaHabito,
     logros
-  },
-  data(){
-    return{
-      
-    }
   }
 }
 </script>

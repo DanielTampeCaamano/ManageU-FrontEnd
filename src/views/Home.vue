@@ -1,18 +1,37 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <section id="perfil">
+      <retratoPerfil></retratoPerfil>
+      <logros></logros>
+    </section>
+    <section id="lista_habitos">
+      <listaHabito></listaHabito>
+    </section>
+    <section id="lista_habitos">
+      <listaActividad></listaActividad>
+    </section>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
+//Imports de componentes
+import retratoPerfil from '../components/retratoPerfil.vue'
+import listaActividad from '../components/listaActividad.vue'
+import listaHabito from '../components/listaHabito.vue'
+import logros from '../components/logros.vue'
+//Fin imports de componentes
 export default {
   name: 'Home',
   components: {
-    HelloWorld
+    retratoPerfil,
+    listaActividad,
+    listaHabito,
+    logros
+  },
+  data(){
+    return{
+      
+    }
   }
 }
 </script>
